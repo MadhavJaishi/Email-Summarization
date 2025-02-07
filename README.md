@@ -1,24 +1,24 @@
-Email Summarization
+📧 Email Summarization
 
-📌 Project Overview
+🌟 Project Overview
 
-This project focuses on summarizing email content using Natural Language Processing (NLP) techniques. It leverages transformer-based models to generate concise summaries while maintaining key information from the original email text. The ROUGE metric is used to evaluate the quality of generated summaries.
+Email Summarization is an NLP-based project that generates concise summaries from lengthy email content using a transformer-based model. It ensures that key information is retained while making the email easier to read and process. The ROUGE metric is used to evaluate summary accuracy.
 
 🚀 Features
 
-Automatic Email Summarization: Converts lengthy email content into short, meaningful summaries.
+Automated Email Summarization
 
-Transformer-Based Model: Utilizes a pre-trained language model for text summarization.
+Transformer-based Text Processing
 
-ROUGE Score Evaluation: Measures the accuracy of generated summaries against reference summaries.
+ROUGE Score Evaluation for Quality Check
 
-Tokenization & Text Processing: Uses a tokenizer for handling input text efficiently.
+Efficient Tokenization & Text Generation
 
 🛠️ Technologies Used
 
 Python
 
-Bart Transformer Based Model
+Hugging Face Transformers
 
 PyTorch
 
@@ -34,7 +34,7 @@ Email-Summarization/
 │   ├── evaluation.py      # ROUGE score evaluation
 │── README.md              # Project documentation
 
-📜 How It Works
+🏗️ How It Works
 
 Tokenize the Email Content:
 
@@ -61,7 +61,7 @@ print(f"Final Accuracy: {final_accuracy:.4f}")
 
 🔹 Prerequisites
 
-Ensure you have Python installed along with the necessary dependencies:
+Ensure you have Python installed along with necessary dependencies:
 
 pip install torch transformers evaluate
 
@@ -69,9 +69,9 @@ pip install torch transformers evaluate
 
 python src/summarization.py
 
-📊 Evaluation
+📊 Evaluation Metrics
 
-The generated summaries are evaluated using ROUGE scores:
+Generated summaries are evaluated using ROUGE scores:
 
 ROUGE-1: Measures unigram overlap.
 
@@ -83,11 +83,10 @@ ROUGE-L: Measures longest common subsequence overlap.
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-📄 License
+📜 License
 
 This project is licensed under the MIT License.
 
 📬 Contact
 
 For any inquiries, feel free to reach out via GitHub Issues.
-
