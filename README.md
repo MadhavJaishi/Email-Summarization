@@ -15,7 +15,7 @@ Email Summarization is an **NLP-based project** that generates concise summaries
 
 ## 🛠️ Technologies Used
 - **Python**
-- **Hugging Face Transformers**
+- **BART Transformers Based Model**
 - **PyTorch**
 - **ROUGE Metric (evaluate library)**
 
@@ -64,10 +64,13 @@ Email-Summarization/
 Ensure you have Python installed along with necessary dependencies:
 ```sh
 pip install torch transformers evaluate
+```
 
-🔹 Run the Summarization Script
-
+###🔹 Run the Summarization Script
+```sh
 python src/summarization.py
+```
+---
 
 ## 📊 Evaluation Metrics
 
@@ -78,6 +81,17 @@ ROUGE-1: Measures unigram overlap.
 ROUGE-2: Measures bigram overlap.
 
 ROUGE-L: Measures longest common subsequence overlap.
+
+---
+
+## Team Members
+The project was developed collaboratively by:
+- **Sunil TV - Github**
+- **Nilesh Ranjan - https://github.com/NILESH-2003**
+- **Vishnu Vardhan - Github**
+- **Madhav Jaishi - https://github.com/u/MadhavJaishi**
+
+---
 
 ## 🤝 Contributing
 
